@@ -13,6 +13,9 @@ class SchoolbookView {
 		void printRoleRequest () {
 			cout << "Яка ваша роль (teacher | pupil)?:\n";
 		}
+		void printAuthorRequest () {
+			cout << "Введіть автора (merzlyak | ister)?:\n";
+		}
 		void printException (string msg, exception e) {
 			cout << msg;
 			cerr << e.what();

@@ -20,6 +20,6 @@ class Section {
 	void setContent (string c) {content = c;}
 	void setTest (int index, Test test) {tests[index] = test;}
 	string toString (bool teacher) {
-		return "===============\n\033[1;34m" + title + "\033[0m\n\n" + "===============\n\033[33m"  + content + "\033[0m\n\n" + "--------------\n" + "ТЕСТИ\n" + "--------------\n"  + tests[0].toString(teacher) + "\n" + tests[1].toString(teacher);	
+		return "===============\n\033[1;34m" + title + "\033[0m\n" + "===============\n\033[33m"  + content + "\033[0m\n\n" + "--------------\n" + "ТЕСТИ\n" + "--------------\n"  + tests[0].toString(teacher) + "\n" + tests[1].toString(teacher);	
 	}
 };

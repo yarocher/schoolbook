@@ -10,13 +10,14 @@ using namespace rapidxml;
 
 class DAO {   
 	public:
-	Section getSection (int number)
+	Section getSection (string author, int number)
 	{
 		xml_document<> doc;
 		xml_node<> * root_node = NULL;
 
 		//reading data from file
-		ifstream theFile ("src/resources/section" + to_string(number)  + ".xml");
+		string path = "src/resources/" + author + "/section" + to_string(number)  + ".xml";
+		ifstream theFile (path);
 		vector<char> buffer((istreambuf_iterator<char>(theFile)), istreambuf_iterator<char>());
 		buffer.push_back('\0');
 	   

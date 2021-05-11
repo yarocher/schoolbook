@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section>
+	<title>wiuqrghqieurgbquiegbкарті світу</title>
+	<content>
+		my content
+	</content>
+	<test>
+		<question>HHHHHHHHHHHHHHHHhhВійна?</question>
+		<answer correct="false">1800-1803</answer>
+		<answer correct="true">1939-1945</answer>
+		<answer correct="false">2003-2010</answer>
+		<answer correct="false">1034-1589</answer>
+	</test>
+	<test>
+		<question>Яка столицяYYYYYYYYYYYY?</question>
+		<answer correct="false">Київ</answer>
+		<answer correct="false">Нью Йорк</answer>
+		<answer correct="true">Лондон</answer>
+		<answer correct="false">Париж</answer>
+	</test>
+</section>
