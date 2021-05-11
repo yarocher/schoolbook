@@ -7,4 +7,4 @@ int main(void)
 {
 	SchoolbookController controller;
 	controller.processInput();
-}
+};

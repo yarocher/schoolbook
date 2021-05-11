@@ -14,7 +14,10 @@ class Test {
 	void setCorrectIndex (int index) {correctAnswerIndex = index;}
 	void setQuestion (string q) {question = q;}
 	void setAnswer (int index, string a) {answers[index] = a;}
-	string toString () {
-		return question + " (correct: " + to_string(correctAnswerIndex) + ")\n\t" + answers[0] + "\n\t" + answers[1] + "\n\t" + answers[2] + "\n\t" + answers[3];
+	string toString (bool teacher) {
+		string str = question; 
+		if (teacher) str = str + " (correct: " + to_string(correctAnswerIndex + 1) + ")";
+		str = str + "\n\t1) " + answers[0] + "\n\t2) " + answers[1] + "\n\t3) " + answers[2] + "\n\t4) " + answers[3];
+		return str;	
 	}
 };
