@@ -20,6 +20,6 @@ class Section {
 	void setContent (string c) {content = c;}
 	void setTest (int index, Test test) {tests[index] = test;}
 	string toString () {
-		return title + "\n" + content + "\n\n" + tests[0].toString() + "\n" + tests[1].toString();	
+		return "===============\n" + title + "\n" + "===============\n"  + content + "\n\n" + "--------------\n" + "QUESTIONS\n" + "--------------\n"  + tests[0].toString() + "\n" + tests[1].toString();	
 	}
 };
