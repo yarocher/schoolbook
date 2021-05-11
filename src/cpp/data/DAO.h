@@ -15,22 +15,28 @@ class DAO {
 		xml_document<> doc;
 		xml_node<> * root_node = NULL;
 
+		//reading data from file
 		ifstream theFile ("src/resources/section" + to_string(number)  + ".xml");
 		vector<char> buffer((istreambuf_iterator<char>(theFile)), istreambuf_iterator<char>());
 		buffer.push_back('\0');
 	   
+		//parsing XML to DOM
 		doc.parse<0>(&buffer[0]);
 	   
+		//getting root node
 		root_node = doc.first_node("section");
 	   
 		Section sect;
 
+		//mapping DOM to Section
 		xml_node<> * title_node = root_node->first_node("title");
 		string title =  title_node ->value();
 		sect.setTitle(title);
+
 		xml_node<> * content_node = root_node->first_node("content");
 		string content =  content_node ->value();
 		sect.setContent(content);
+
 		int testIndex = 0;
 		for(xml_node<> * test_node = root_node->first_node("test"); test_node; test_node = test_node->next_sibling())
 		{
