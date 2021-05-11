@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section>
+	<title>This is second section</title>
+	<content>
+		The international community has urged both sides to end the escalation, which follows days of unrest in Jerusalem.
+		Militants had already fired more than 400 rockets since Monday night, killing two Israelis. Health officials in Gaza report that 28 Palestinians there were killed by Israeli air strikes.
+	</content>
+	<test>
+		<question>What is the correct answer?</question>
+		<answer correct="false">A</answer>
+		<answer correct="false">B</answer>
+		<answer correct="false">C</answer>
+		<answer correct="true">D</answer>
+	</test>
+	<test>
+		<question>Ha?</question>
+		<answer correct="false">Kek</answer>
+		<answer correct="true">Kok</answer>
+		<answer correct="false">Kyk</answer>
+		<answer correct="false">hsjfh</answer>
+	</test>
+</section>

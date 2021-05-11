@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section>
+	<title>Super-mega-section 3</title>
+	<content>
+		Israeli Prime Minister Benjamin Netanyahu said earlier that the main militant group, Hamas, had "crossed a red line" by firing rockets towards Jerusalem for the first time in years.
+	</content>
+	<test>
+		<question>The best question ever?</question>
+		<answer correct="true">Me</answer>
+		<answer correct="false">You</answer>
+		<answer correct="false">My question</answer>
+		<answer correct="false">I'm a cucumber</answer>
+	</test>
+	<test>
+		<question>Jjjjjjjjjjjjjl?</question>
+		<answer correct="false">J</answer>
+		<answer correct="false">jjj</answer>
+		<answer correct="false">Jjaj</answer>
+		<answer correct="true">jaj</answer>
+	</test>
+</section>

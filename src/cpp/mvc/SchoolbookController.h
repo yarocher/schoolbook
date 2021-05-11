@@ -17,7 +17,7 @@ class SchoolbookController {
 			try {
 				int number = stoi(sectionNumber);
 				DAO dao;
-				Section section = dao.getSection(1);	
+				Section section = dao.getSection(number);	
 				if (role == "teacher") view.printSection(section, true);
 				else if (role == "pupil") view.printSection(section, false);
 				else cout << ("Invalid role");
