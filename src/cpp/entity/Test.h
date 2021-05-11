@@ -14,4 +14,7 @@ class Test {
 	void setCorrectIndex (int index) {correctAnswerIndex = index;}
 	void setQuestion (string q) {question = q;}
 	void setAnswer (int index, string a) {answers[index] = a;}
+	string toString () {
+		return question + " (correct: " + to_string(correctAnswerIndex) + ")\n\t" + answers[0] + "\n\t" + answers[1] + "\n\t" + answers[2] + "\n\t" + answers[3];
+	}
 };

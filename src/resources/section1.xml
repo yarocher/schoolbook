@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section>
+	<title>My section is very good</title>
+	<content>
+		The 13-storey building was attacked an hour and a half after residents and local people were warned to evacuate, Reuters news agency reports.
+		Israel's military says it is targeting militants in Gaza in response to earlier rocket attacks.
+		At least 30 people have died in some of the worst violence in years.
+	</content>
+	<test>
+		<question>When was The Second World War?</question>
+		<answer correct="false">1800-1803</answer>
+		<answer correct="true">1939-1945</answer>
+		<answer correct="false">2003-2010</answer>
+		<answer correct="false">1034-1589</answer>
+	</test>
+	<test>
+		<question>What is the capital of Great Britain?</question>
+		<answer correct="false">Kyiv</answer>
+		<answer correct="false">New York</answer>
+		<answer correct="true">London</answer>
+		<answer correct="false">Paris</answer>
+	</test>
+</section>
