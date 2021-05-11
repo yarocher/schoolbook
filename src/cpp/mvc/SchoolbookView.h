@@ -8,10 +8,10 @@ class SchoolbookView {
 			cout << section.toString(teacher);
 		}
 		void printSectionRequest () {
-			cout << "Please, enter number of section:\n";
+			cout << "Будь-ласка, введіть номер розділу:\n";
 		}
 		void printRoleRequest () {
-			cout << "What is your role (teacher | pupil)?:\n";
+			cout << "Яка ваша роль (teacher | pupil)?:\n";
 		}
 		void printException (string msg, exception e) {
 			cout << msg;
